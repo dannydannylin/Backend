@@ -20,7 +20,6 @@ public class ArticleServiceImpl implements ArticleService {
     @Autowired
     private ArticleRepository articleRepository ;
 
-    @Transactional
     @Override
     public Article getArticle(Long id) {
         return articleRepository.findById(id).orElse(null) ;
