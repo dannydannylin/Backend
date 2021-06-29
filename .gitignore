@@ -1,0 +1,23 @@
+# taget
+/target
+
+# password yaml
+/src/main/resources/application-dev.yaml
+/src/main/resources/application-devdocker.yaml
+/src/main/resources/application-docker.yaml
+
+# docker
+Dockerfile
+
+
+# Editor directories and files
+demo1.iml
+.idea
+.vscode
+.mvn
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
